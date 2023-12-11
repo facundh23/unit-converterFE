@@ -1,7 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
+import { convertorSlice } from "./slices/convertor/convertorSlice";
 
 export const store = configureStore({
-  reducer: {},
+  reducer: {
+    convertor: convertorSlice.reducer,
+  },
 });
 
 export type RootState = ReturnType<typeof store.getState>;
