@@ -1,15 +1,15 @@
 
 
 import './App.css'
-import Layout from './layout/Layout'
+import Layout from './Layout/Layout'
 
 function App() {
 
 
   return (
-    <>
-      <Layout />
-    </>
+
+    <Layout />
+
   )
 }
 
