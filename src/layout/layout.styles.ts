@@ -6,6 +6,6 @@ export const StyledLayout = styled.div`
   align-items: flex-start;
   width: 100%;
   margin: 0px;
-  height: 100vh;
-  background-color: red;
+  height: 100%;
+  scrollable: true;
 `;

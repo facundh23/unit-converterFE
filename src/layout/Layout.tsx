@@ -3,6 +3,7 @@ import Header from '../components/Header/Header';
 import { StyledLayout } from './layout.styles';
 import Footer from '../components/Footer/Footer';
 import Main from '../components/Main/Main';
+import SavedList from '../components/Saved/SavedList';
 
 
 
@@ -15,6 +16,7 @@ const Layout = () => {
         <StyledLayout>
             <Header />
             <Main />
+            <SavedList />
             <Footer />
         </StyledLayout>
     )

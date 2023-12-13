@@ -13,6 +13,10 @@ export const StyledContainer = styled.div`
   margin: 0 auto;
   border-radius: 10%;
   margin-top: 20px;
+
+  @media (min-width: 471px) {
+    border-radius: 10px;
+  }
 `;
 
 export const StyledContainerInputs = styled.div`
