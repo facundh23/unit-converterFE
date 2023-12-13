@@ -7,6 +7,8 @@ export const StyledFooter = styled.footer`
   align-items: center;
   justify-content: space-around;
   width: 100%;
+  bottom: 0;
+  position: fixed;
 `;
 export const StyledFooterItems = styled.p`
   color: white;

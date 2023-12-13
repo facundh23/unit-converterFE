@@ -6,7 +6,7 @@ export const StyledHeader = styled.div`
   align-items: center;
   justify-content: flex-start;
   gap: 5px;
-  height: 50px;
+  height: 30px;
   background-color: white;
   width: 100%;
   border-bottom: 2px solid gray;
