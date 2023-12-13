@@ -9,6 +9,10 @@ export const StyledFooter = styled.footer`
   width: 100%;
   bottom: 0;
   position: fixed;
+
+  @media (min-width: 768px) {
+    align-items: center;
+  }
 `;
 export const StyledFooterItems = styled.p`
   color: white;
