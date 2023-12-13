@@ -5,13 +5,13 @@ export const StyledFooter = styled.footer`
   background-color: #2e0039;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
   bottom: 0;
   position: fixed;
-
-  @media (min-width: 768px) {
-    align-items: center;
+  gap: 15px;
+  @media (max-width: 768px) {
+    justify-content: space-around;
   }
 `;
 export const StyledFooterItems = styled.p`
